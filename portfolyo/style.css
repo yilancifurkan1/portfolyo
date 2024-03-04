@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(./img/background.jpg);
+
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+}
+
+.kutu {
+    display: flex;
+    border-left: 1px yellow dashed;
+    border-bottom: 1px yellow dashed;
+    border-width:5px ;
+    width: 300px;
+    height: 500px;
+
+}
+
+.kutu-1 {
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+
+.imagess {
+    margin-right: 30px;
+    margin-top: 220px;
+}
+
+.imagess img{
+     width: 250px;
+     height: 400px;
+     position: absolute;
+     z-index: 1;
+     
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.kutu-2{
+
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    justify-content: center;
+}
+
+.p1 {
+    font-size: xx-large;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.prfl {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.prfl h1 {
+    letter-spacing: 5px;
+    font-size: 37px;
+    border-right: 4px solid black;
+    border-radius: 3px;
+}
+
+.prfl-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.kutu-3 {
+    background-color: yellow;
+    width: 270px;
+    height: 5px;
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.p2 {
+    font-size: xx-large;
+    z-index: 1;
+    text-align: center;
+}
+
+.kutu-4 {
+    display: flex;
+    border-right: 1px yellow dashed;
+    border-top: 1px yellow dashed;
+    border-width:5px ;
+    width: 200px;
+    height: 340px;
+
+}
