@@ -115,3 +115,24 @@ body {
     height: 340px;
 
 }
+
+.cv {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 10px;
+    color: black;
+    align-items: center;
+}
+
+.cv a {
+    color: inherit;
+    
+}
+
+
+
+.cv span:hover {
+    cursor: pointer;
+
+}
